@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+  font-family: 'Muli', sans-serif;
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 19%, rgba(0,212,255,1) 100%);
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.local {
+  width: 100%;
+  height: 34vh;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 34vw;
+  color: black;
+
+  img {
+    height: 30vh;
+  }
+
+  h1 {
+    margin: 0;
+    position: absolute;
+    top: 5vw;
+    left: 5vw;
+    color: white;
+  }
+
+  h2 {
+    font-size: medium;
+    padding-left: 10px;
+    color: white;
+  }
+}
+
+.right {
+  padding-right: 2.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  width: 66vw;
+
+  h1 {
+    margin: 0;
+  }
+
+  h2 {
+    margin: 0;
+    padding: 4px 0px;
+    font-size: smaller;
+  }
+  
+  .current-location {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+
+    .material-symbols-outlined {
+      padding-top: 8px;
+    }
+  }
+}
+
+.hourly {
+  width: 100%;
+  height: 16vh;
+
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.hour {
+    /* Flex */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* Dimensions */
+    width:20%;
+
+  p {
+    margin: 0;
+    font-size: smaller;
+  }
+
+  img {
+    height: 50%;
+  }
+}
+
+.locations {
+  /* Border, Margins, Padding */
+  /* Flex */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  /* Dimensions */
+
+  width: 100%;
+  height: 50vh;
+}
+
+.location {
+  /* Border, Margins, Padding */
+  border-radius: 15px;
+  /* Color */
+  background-color: steelblue;
+  color: aliceblue;
+  /* Flex */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  /* Dimensions */
+  width: 45%;
+  height: 45%;
+
+  h1 {
+    font-size: small;
+    margin: 0;
+  }
+
+  img {
+    height: 60%;
+  }
+
+  h2 {
+    font-size: small;
+    margin: 0;
+  }
+}
